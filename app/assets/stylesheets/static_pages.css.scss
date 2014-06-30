@@ -1,3 +1,92 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Google Fints in use
+// font-family: 'Source Sans Pro', sans-serif;
+// font-family: 'Source Code Pro', ;
+// font-family: 'Source Serif Pro', serif;
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, body {
+	color: #333332;
+}
+
+h1 {
+	font-family: 'Source Code Pro';
+	font-weight: 200;
+	font-size: 4.2em;
+	letter-spacing: .15em;
+}
+
+h2, p, body, a, {
+	font-family: 'Source Sans Pro';
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.nav-bar {
+	background: #fcfcfc;
+	padding: 2em 0 2em 2em;
+	border-bottom: lightgray 1px solid;
+}
+.nav-bar a {
+	text-decoration: none;
+}
+
+.nav-bar-menu {
+	text-align: right;
+}
+
+.container {
+	max-width: 1024px;
+	min-width: 640px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+.value-proposition {
+	margin: 0 auto;
+	padding: 80px 80px 80px 80px;
+}
+
+
+.container {
+	max-width: 1024px;
+	min-width: 640px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+.footer {
+	margin: 80px 0 80px 0;
+	padding: 0;
+	color: lightgray;
+	font-weight: 200;
+}
+
+.footer a {
+	color: lightgray;
+}
+
+.project-thumbnail {
+	margin: 80px 0 80px 0;
+}
+
+.black-box {
+	background: #333332;
+	height: 640px;
+}
+
