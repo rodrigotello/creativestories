@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
 
   def register
   end
+
+  def project1
+  	
+  end
 end
