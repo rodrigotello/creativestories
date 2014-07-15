@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get "project1" => "static_pages#project1"
 
+  get "project1unlocked76395408312" => "static_pages#project1unlocked76395408312"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

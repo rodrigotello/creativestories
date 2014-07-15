@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+h1, h2, h3, h4, h5, h6, p, a, body {
+  color: #333332; }
+
+h1 {
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-size: 4.2em;
+  letter-spacing: .15em; }
+
+h2, p, body, a {
+  font-family: 'Source Sans Pro'; }
+
+h2 {
+  font-size: 2em;
+  font-weight: normal; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  border: none;
+  border-image-width: none; }
+
+/* Border around the image */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/* Default margin from browsers */
+h1 {
+  margin: 0;
+  padding: 0; }
+
+/* Default margin/padding from the h1 */
+.nav-bar {
+  background: #fdfdfd;
+  padding: 2em 0 2em 2em;
+  border-bottom: #ededed 1px solid; }
+
+.nav-bar a {
+  text-decoration: none;
+  margin: 0 2em 0 0;
+  text-align: right; }
+
+.nav-bar-menu {
+  text-align: right; }
+
+.logo {
+  float: left; }
+
+.value-proposition {
+  margin: 0 auto;
+  padding: 120px 80px 320px 10vw;
+  border-bottom: #ededed 1px solid; }
+
+.footer {
+  margin: 80px;
+  padding: 0;
+  color: lightgray;
+  font-weight: 200;
+  text-align: center; }
+
+.footer a {
+  color: lightgray; }
+
+.project-thumbnail {
+  margin: 40px 0 160px 0;
+  border-bottom: #ededed 1px solid;
+  padding: 20px 0 20px 0; }
+
+.black-box {
+  background: #333332;
+  height: 640px; }
+
+a.buy-button {
+  margin: 0 auto;
+  color: white;
+  background: #333332;
+  border: 0;
+  max-width: 200px;
+  max-height: 100px;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  text-align: center;
+  display: block; }
+
+.project-cover img {
+  width: 100%; }
+
+.project-cover-title h2, .project-cover-title p, .project-cover-title h3 {
+  color: white;
+  padding-left: 20vw; }
+
+div.project-cover-title {
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1em 0;
+  position: absolute;
+  top: 125vh;
+  left: 0;
+  width: 100%; }
+
+.text-post-wrapper {
+  border-right: 10px DarkTurquoise solid;
+  padding: 2em 0; }
+
+.text-post {
+  text-align: left;
+  margin: 0 0 2em 20vw;
+  padding-right: 20vw; }
+
+.gallery {
+  margin: 2em 0; }
+
+.gallery img {
+  width: 20vw;
+  border: none;
+  outline: none;
+  margin: none;
+  border-image-width: none; }
+
+.gallery-caption {
+  padding: 0 20vw;
+  margin: 0 auto; }
+
+.quote-post p {
+  color: white;
+  background: #333332;
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2em;
+  font-style: italic;
+  padding: 6.4em 10vw; }
+
+.tutorial {
+  background: #fdfdfd;
+  padding: 80px 20vw;
+  border: #ededed 1px solid; }
+
+.data-wrapper {
+  border-right: 10px tomato solid;
+  padding: 2em; }
+
+.files-box {
+  padding: 80px 20vw; }
+
+.references-box {
+  padding: 80px 20vw; }
+
+.references-box li {
+  margin: 2em 0; }
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

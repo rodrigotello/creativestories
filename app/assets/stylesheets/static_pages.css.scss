@@ -37,6 +37,14 @@ h2 {
 	font-weight: normal;
 }
 
+ul {
+	list-style-type: none;
+}
+
+img { border:none; border-image-width: none;}                     /* Border around the image */
+html, body {margin:0; padding:0;}        /* Default margin from browsers */
+h1 {margin:0; padding:0;}                /* Default margin/padding from the h1 */
+
 .nav-bar {
 	background: rgb(253,253,253);
 	padding: 2em 0 2em 2em;
@@ -56,32 +64,18 @@ h2 {
 	float: left;
 }
 
-.container {
-	max-width: 1024px;
-	min-width: 640px;
-	margin: 0 auto 0 auto;
-	text-align: left;
-}
-
 .value-proposition {
 	margin: 0 auto;
-	padding: 120px 80px 320px 0;
+	padding: 120px 80px 320px 10vw;
 	border-bottom: #ededed 1px solid;
 }
 
-
-.container {
-	max-width: 1024px;
-	min-width: 640px;
-	margin: 0 auto 0 auto;
-	text-align: left;
-}
-
 .footer {
-	margin: 80px 0 80px 0;
+	margin: 80px;
 	padding: 0;
 	color: lightgray;
 	font-weight: 200;
+	text-align: center;
 }
 
 .footer a {
@@ -99,3 +93,95 @@ h2 {
 	height: 640px;
 }
 
+a.buy-button {
+	margin: 0 auto;
+	color: white;
+	background: #333332;
+	border: 0;
+	max-width: 200px;
+	max-height: 100px;
+	padding: 20px 40px 20px 40px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+.project-cover img{
+	width: 100%;
+}
+
+.project-cover-title h2, .project-cover-title p, .project-cover-title h3{
+	color: white;
+	padding-left: 20vw;
+}
+
+div.project-cover-title{
+	letter-spacing: -1px;  
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 1em 0; 
+	position: absolute; 
+  top: 125vh; 
+  left: 0; 
+  width: 100%; 
+}
+
+.text-post-wrapper {
+	border-right: 10px DarkTurquoise solid;
+	padding: 2em 0;
+}
+
+.text-post {
+	text-align: left;
+	margin: 0 0 2em 20vw;
+	padding-right: 20vw;
+}
+
+.gallery {
+	margin: 2em 0;
+}
+
+.gallery img{
+	width: 20vw;
+	border: none;
+ 	outline: none;
+ 	margin: none;
+ 	border-image-width: none;
+}
+
+.gallery-caption {
+	padding: 0 20vw;
+	margin: 0 auto;
+}
+
+.quote-post p{
+	color: white;
+	background: #333332;
+	text-align: center;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2em;
+	font-style: italic;
+	padding: 6.4em 10vw;
+}
+
+.tutorial {
+	background: rgb(253,253,253);
+	padding: 80px 20vw;
+	border: #ededed 1px solid;
+}
+
+.data-wrapper {
+	border-right: 10px tomato solid;
+	padding: 2em;
+}
+
+.files-box {
+	padding: 80px 20vw;
+}
+
+.references-box {
+	padding: 80px 20vw;
+}
+.references-box li{
+	margin: 2em 0;
+}
