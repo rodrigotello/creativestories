@@ -106,24 +106,24 @@ a.buy-button {
 	display: block;
 }
 
-.project-cover img{
+.project-cover {
+	background-image: url(http://38.media.tumblr.com/b52faa97279af96f8aa1c80d75a45707/tumblr_n4efdyyCNB1st5lhmo1_1280.jpg);
+	height: 100vh;
+	position: relative;
+}
+
+.project-cover-title {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 2em 0;
 }
 
 .project-cover-title h2, .project-cover-title p, .project-cover-title h3{
 	color: white;
-	padding-left: 20vw;
-}
-
-div.project-cover-title{
-	letter-spacing: -1px;  
-	background: rgb(0, 0, 0); /* fallback color */
-	background: rgba(0, 0, 0, 0.7);
-	padding: 1em 0; 
-	position: absolute; 
-  top: 125vh; 
-  left: 0; 
-  width: 100%; 
+	padding: 0 0 0 20vw;
 }
 
 .text-post-wrapper {
@@ -138,15 +138,15 @@ div.project-cover-title{
 }
 
 .gallery {
-	margin: 2em 0;
+	margin: 0 0 4em 0;
 }
 
 .gallery img{
-	width: 20vw;
+	width: 25vw;
 	border: none;
- 	outline: none;
- 	margin: none;
+	outline: 0;
  	border-image-width: none;
+	margin-bottom: -4px;
 }
 
 .gallery-caption {
@@ -166,17 +166,27 @@ div.project-cover-title{
 
 .tutorial {
 	background: rgb(253,253,253);
-	padding: 80px 20vw;
+	padding: 2em 20vw;
 	border: #ededed 1px solid;
 }
 
 .data-wrapper {
 	border-right: 10px tomato solid;
-	padding: 2em;
 }
 
 .files-box {
-	padding: 80px 20vw;
+	padding: 0 20vw;
+	list-style: none;
+}
+
+.files-box ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.files-box li{
+	display: inline;
 }
 
 .references-box {
